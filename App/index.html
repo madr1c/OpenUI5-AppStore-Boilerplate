@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+
+    <!--Include OpenUI5 and set main properties.-->
+    <script src="../bower_components/openui5-bower/resources/sap-ui-core.js"
+            id="sap-ui-bootstrap"
+            data-sap-ui-libs="sap.m, sap.ui.commons,sap.ui.table"
+            data-sap-ui-xx-bindingSyntax="complex"
+            data-sap-ui-resourceroots='{
+					"appStore": "./appStore",
+					"sap.app.store": "./"
+				}'
+            data-sap-ui-theme="sap_bluecrystal">
+    </script>
+
+    <!--Creates an new application by using common.js and an sap shell containing the Component.js and places it into our content div.-->
+    <script>
+        jQuery.sap.require("sap.app.store.common");
+
+        new sap.m.Shell("Shell", {
+            app: new sap.ui.core.ComponentContainer({
+                name: 'sap.app.store'
+            })
+        }).placeAt('content');
+
+    </script>
+
+</head>
+<body class="sapUiBody" role="application">
+<div id="content"></div>
+</body>
+</html>
