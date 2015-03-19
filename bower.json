@@ -1,0 +1,21 @@
+{
+  "name": "OpenUI5 AppStore Boilerplate",
+  "version": "1.0.0",
+  "authors": [
+    "madr1c"
+  ],
+  "description": "OpenUI5 Boilerplate for an AppStore",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "openui5-bower": "~1.26.7"
+  }
+}
