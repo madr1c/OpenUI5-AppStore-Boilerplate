@@ -4,7 +4,7 @@ OpenUI5 AppStore Boilerplate
 A little OpenUI5 boilerplate for an app store.
 
 ```sh
-$ git clone https://github.com/madr1c/UI5SplitApp-Boilerplate.git
+$ git clone https://github.com/madr1c/OpenUI5-AppStore-Boilerplate.git
 ```
 
 Installation
